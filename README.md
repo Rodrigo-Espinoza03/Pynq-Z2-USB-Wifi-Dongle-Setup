@@ -13,6 +13,7 @@ Step 3: Enter "sudo nano /etc/network/interfaces"
 Step 4: Enter the following: 
 
 auto lo
+
 iface lo inet loopback
 
 // for ethernet connection:
