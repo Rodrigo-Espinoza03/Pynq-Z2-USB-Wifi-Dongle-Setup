@@ -5,11 +5,11 @@ Use Tera Term or Putty and set baud rate to 115200. Select COM port. Let pynq bo
 Turn on and change mobile hotspot properties.
 
 Step 1: Connect USB wifi dongle to usb port of board.
-*
+
 Step 2: Enter "lsusb" and make sure wifi dongle is detected. If so, proceed to next step.
-*
+
 Step 3: Enter "sudo nano /etc/network/interfaces"
-*
+
 Step 4: Enter the following: 
 
 auto lo
@@ -29,5 +29,5 @@ iface wlan0 inet dhcp
 
 Note: Use the name and password from your hotsport. Enter hotspot name for wpa-ssid. Enter hotspot password for wpa-psk.
 Step 5:  Select ctrl+O, then click enter, then select ctrl+X to leave nano text editor.
-*
+
 Step 6: Enter "sudo reboot"
